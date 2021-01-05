@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>Performance non-regression tests on Grid'5000</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  </head>
+  <body>
+  <div class="container">
+  <div class="row">
+  <div class="column" style="margin-top: 10%">
+    <h1>Performance tests on Grid'5000</h1>
+    <p>
+
+    <table>
+        <thead>
+            <tr class="header">
+                <th style="text-align: left;">Cluster</th>
+                <th>Performance</th>
+                <th>Frequency</th>
+                <th>Power</th>
+                <th>Temperature</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>chetemi</td>
+                <td><a class="button" href="chetemi_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="chetemi_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="chetemi_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="chetemi_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="chetemi_intercept.html">Intercept</a>
+                            <a href="chetemi_mnk.html">MNK</a>
+                            <a href="chetemi_mn.html">MN</a>
+                            <a href="chetemi_mk.html">MK</a>
+                            <a href="chetemi_nk.html">NK</a>
+                            <a href="chetemi_m.html">M</a>
+                            <a href="chetemi_n.html">N</a>
+                            <a href="chetemi_k.html">K</a>
+                            <a href="chetemi_intercept_residual.html">Intercept_residual</a>
+                            <a href="chetemi_mnk_residual.html">MNK_residual</a>
+                            <a href="chetemi_mn_residual.html">MN_residual</a>
+                            <a href="chetemi_mk_residual.html">MK_residual</a>
+                            <a href="chetemi_nk_residual.html">NK_residual</a>
+                            <a href="chetemi_m_residual.html">M_residual</a>
+                            <a href="chetemi_n_residual.html">N_residual</a>
+                            <a href="chetemi_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="odd">
+                <td>dahu</td>
+                <td><a class="button" href="dahu_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="dahu_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="dahu_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="dahu_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="dahu_intercept.html">Intercept</a>
+                            <a href="dahu_mnk.html">MNK</a>
+                            <a href="dahu_mn.html">MN</a>
+                            <a href="dahu_mk.html">MK</a>
+                            <a href="dahu_nk.html">NK</a>
+                            <a href="dahu_m.html">M</a>
+                            <a href="dahu_n.html">N</a>
+                            <a href="dahu_k.html">K</a>
+                            <a href="dahu_intercept_residual.html">Intercept_residual</a>
+                            <a href="dahu_mnk_residual.html">MNK_residual</a>
+                            <a href="dahu_mn_residual.html">MN_residual</a>
+                            <a href="dahu_mk_residual.html">MK_residual</a>
+                            <a href="dahu_nk_residual.html">NK_residual</a>
+                            <a href="dahu_m_residual.html">M_residual</a>
+                            <a href="dahu_n_residual.html">N_residual</a>
+                            <a href="dahu_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+            </td>
+            </tr>
+            <tr class="even">
+                <td>ecotype</td>
+                <td><a class="button" href="ecotype_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="ecotype_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="ecotype_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="ecotype_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="ecotype_intercept.html">Intercept</a>
+                            <a href="ecotype_mnk.html">MNK</a>
+                            <a href="ecotype_mn.html">MN</a>
+                            <a href="ecotype_mk.html">MK</a>
+                            <a href="ecotype_nk.html">NK</a>
+                            <a href="ecotype_m.html">M</a>
+                            <a href="ecotype_n.html">N</a>
+                            <a href="ecotype_k.html">K</a>
+                            <a href="ecotype_intercept_residual.html">Intercept_residual</a>
+                            <a href="ecotype_mnk_residual.html">MNK_residual</a>
+                            <a href="ecotype_mn_residual.html">MN_residual</a>
+                            <a href="ecotype_mk_residual.html">MK_residual</a>
+                            <a href="ecotype_nk_residual.html">NK_residual</a>
+                            <a href="ecotype_m_residual.html">M_residual</a>
+                            <a href="ecotype_n_residual.html">N_residual</a>
+                            <a href="ecotype_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="odd">
+            <td>grisou</td>
+                <td><a class="button" href="grisou_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="grisou_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="grisou_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="grisou_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="grisou_intercept.html">Intercept</a>
+                            <a href="grisou_mnk.html">MNK</a>
+                            <a href="grisou_mn.html">MN</a>
+                            <a href="grisou_mk.html">MK</a>
+                            <a href="grisou_nk.html">NK</a>
+                            <a href="grisou_m.html">M</a>
+                            <a href="grisou_n.html">N</a>
+                            <a href="grisou_k.html">K</a>
+                            <a href="grisou_intercept_residual.html">Intercept_residual</a>
+                            <a href="grisou_mnk_residual.html">MNK_residual</a>
+                            <a href="grisou_mn_residual.html">MN_residual</a>
+                            <a href="grisou_mk_residual.html">MK_residual</a>
+                            <a href="grisou_nk_residual.html">NK_residual</a>
+                            <a href="grisou_m_residual.html">M_residual</a>
+                            <a href="grisou_n_residual.html">N_residual</a>
+                            <a href="grisou_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="even">
+                <td>gros</td>
+                <td><a class="button" href="gros_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="gros_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="gros_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="gros_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="gros_intercept.html">Intercept</a>
+                            <a href="gros_mnk.html">MNK</a>
+                            <a href="gros_mn.html">MN</a>
+                            <a href="gros_mk.html">MK</a>
+                            <a href="gros_nk.html">NK</a>
+                            <a href="gros_m.html">M</a>
+                            <a href="gros_n.html">N</a>
+                            <a href="gros_k.html">K</a>
+                            <a href="gros_intercept_residual.html">Intercept_residual</a>
+                            <a href="gros_mnk_residual.html">MNK_residual</a>
+                            <a href="gros_mn_residual.html">MN_residual</a>
+                            <a href="gros_mk_residual.html">MK_residual</a>
+                            <a href="gros_nk_residual.html">NK_residual</a>
+                            <a href="gros_m_residual.html">M_residual</a>
+                            <a href="gros_n_residual.html">N_residual</a>
+                            <a href="gros_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="odd">
+                <td>parasilo</td>
+                <td><a class="button" href="parasilo_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="parasilo_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="parasilo_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="parasilo_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="parasilo_intercept.html">Intercept</a>
+                            <a href="parasilo_mnk.html">MNK</a>
+                            <a href="parasilo_mn.html">MN</a>
+                            <a href="parasilo_mk.html">MK</a>
+                            <a href="parasilo_nk.html">NK</a>
+                            <a href="parasilo_m.html">M</a>
+                            <a href="parasilo_n.html">N</a>
+                            <a href="parasilo_k.html">K</a>
+                            <a href="parasilo_intercept_residual.html">Intercept_residual</a>
+                            <a href="parasilo_mnk_residual.html">MNK_residual</a>
+                            <a href="parasilo_mn_residual.html">MN_residual</a>
+                            <a href="parasilo_mk_residual.html">MK_residual</a>
+                            <a href="parasilo_nk_residual.html">NK_residual</a>
+                            <a href="parasilo_m_residual.html">M_residual</a>
+                            <a href="parasilo_n_residual.html">N_residual</a>
+                            <a href="parasilo_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="even">
+                <td>paravance</td>
+                <td><a class="button" href="paravance_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="paravance_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="paravance_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="paravance_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="paravance_intercept.html">Intercept</a>
+                            <a href="paravance_mnk.html">MNK</a>
+                            <a href="paravance_mn.html">MN</a>
+                            <a href="paravance_mk.html">MK</a>
+                            <a href="paravance_nk.html">NK</a>
+                            <a href="paravance_m.html">M</a>
+                            <a href="paravance_n.html">N</a>
+                            <a href="paravance_k.html">K</a>
+                            <a href="paravance_intercept_residual.html">Intercept_residual</a>
+                            <a href="paravance_mnk_residual.html">MNK_residual</a>
+                            <a href="paravance_mn_residual.html">MN_residual</a>
+                            <a href="paravance_mk_residual.html">MK_residual</a>
+                            <a href="paravance_nk_residual.html">NK_residual</a>
+                            <a href="paravance_m_residual.html">M_residual</a>
+                            <a href="paravance_n_residual.html">N_residual</a>
+                            <a href="paravance_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="odd">
+                <td>troll</td>
+                <td><a class="button" href="troll_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="troll_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="troll_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="troll_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="troll_intercept.html">Intercept</a>
+                            <a href="troll_mnk.html">MNK</a>
+                            <a href="troll_mn.html">MN</a>
+                            <a href="troll_mk.html">MK</a>
+                            <a href="troll_nk.html">NK</a>
+                            <a href="troll_m.html">M</a>
+                            <a href="troll_n.html">N</a>
+                            <a href="troll_k.html">K</a>
+                            <a href="troll_intercept_residual.html">Intercept_residual</a>
+                            <a href="troll_mnk_residual.html">MNK_residual</a>
+                            <a href="troll_mn_residual.html">MN_residual</a>
+                            <a href="troll_mk_residual.html">MK_residual</a>
+                            <a href="troll_nk_residual.html">NK_residual</a>
+                            <a href="troll_m_residual.html">M_residual</a>
+                            <a href="troll_n_residual.html">N_residual</a>
+                            <a href="troll_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="even">
+                <td>yeti</td>
+                <td><a class="button" href="yeti_mean_gflops.html"><i class="fas fa-2x fa-rocket"></i></a></td>
+                <td><a class="button" href="yeti_mean_frequency.html"><i class="fas fa-2x fa-stopwatch"></i></a></td>
+                <td><a class="button" href="yeti_mean_power_cpu.html"><i class="fas fa-2x fa-bolt"></i></a></td>
+                <td><a class="button" href="yeti_mean_temperature.html"><i class="fas fa-2x fa-thermometer-half"></i></a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="button"><i class="fas fa-2x fa-calculator"></i></button>
+                        <div class="dropdown-content">
+                            <a href="yeti_intercept.html">Intercept</a>
+                            <a href="yeti_mnk.html">MNK</a>
+                            <a href="yeti_mn.html">MN</a>
+                            <a href="yeti_mk.html">MK</a>
+                            <a href="yeti_nk.html">NK</a>
+                            <a href="yeti_m.html">M</a>
+                            <a href="yeti_n.html">N</a>
+                            <a href="yeti_k.html">K</a>
+                            <a href="yeti_intercept_residual.html">Intercept_residual</a>
+                            <a href="yeti_mnk_residual.html">MNK_residual</a>
+                            <a href="yeti_mn_residual.html">MN_residual</a>
+                            <a href="yeti_mk_residual.html">MK_residual</a>
+                            <a href="yeti_nk_residual.html">NK_residual</a>
+                            <a href="yeti_m_residual.html">M_residual</a>
+                            <a href="yeti_n_residual.html">N_residual</a>
+                            <a href="yeti_k_residual.html">K_residual</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </p>
+  </div>
+  </div>
+  </div>
+  </body>
+</html>
