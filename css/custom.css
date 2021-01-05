@@ -40,3 +40,7 @@ th
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .button:hover {background-color: #f1f1f1;}
+
+.button {
+    width: 120px;
+}
