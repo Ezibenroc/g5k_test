@@ -20,13 +20,42 @@
         <thead>
             <tr class="header">
                 <th style="text-align: left;">Cluster</th>
-                <th>Performance</th>
-                <th>Performance<sub>2048</sub></th>
-                <th>Frequency</th>
-                <th>Power<sub>CPU</sub></th>
-                <th>Power<sub>DRAM</sub></th>
-                <th>Temperature</th>
-                <th>Model</th>
+                <th>
+                    <div class="tooltip">Performance
+                        <span class="tooltiptext">Average DGEMM performance (including all calls)</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Performance<sub>2048</sub>
+                        <span class="tooltiptext">Average DGEMM performance (restricted to calls with matrices of size
+                            2048×2048)</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Frequency
+                        <span class="tooltiptext">Average CPU frequency during the experiment</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Power<sub>CPU</sub>
+                        <span class="tooltiptext">Average CPU power consumption during the experiment</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Power<sub>DRAM</sub>
+                        <span class="tooltiptext">Average DRAM power consumption during the experiment</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Temperature
+                        <span class="tooltiptext">Average CPU temperature during the experiment</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="tooltip">Model
+                        <span class="tooltiptext">Regression parameters computed with the observed durations</span>
+                    </div>
+                </th>
             </tr>
         </thead>
         <tbody>
